@@ -27,8 +27,8 @@ jobs:
         run: |
           cd lib/_indexer
           yarn install
-          yarn pageindex NaṉE Naṉṉūl
-          yarn todb NaṉE
+          yarn pageindex NanE Naṉṉūl
+          yarn todb NanE
           yarn dbtohtml Naṉṉūl
           cd ../..
           git pull
