@@ -24,7 +24,7 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="NanE006">
+      <lg xml:id="NaṉE006">
 <l>avaṟṟuḷ</l>
 <l>viṉaiyi ṉīṅki viḷaṅkiya vaṟiviṉ</l>
 <l>muṉaivaṉ kaṇṭatu mutaṉū lākum</l>
@@ -35,7 +35,7 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NanE006">
+<standOff type="wordsplit" corresp="#NaṉE006">
 <interp type="alignment" select="0">15ML40ML6M,63M</interp>
 <entry>
 <form>avaṟṟuḷ</form>
