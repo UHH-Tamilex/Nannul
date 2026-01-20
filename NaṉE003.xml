@@ -27,7 +27,7 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="NanE003">
+      <lg xml:id="NaṉE003">
 <l>nūlē nuvalvō ṉuvalun tiṟaṉē</l>
 <l>koḷvōṉ kōṭaṟ kūṟṟā maintum</l>
 <l>ellā nūṟku mivaipotup pāyiram</l>
@@ -38,7 +38,7 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NanE003"><interp type="alignment" select="0">3MG9ML11MG16MG6M2G10M2G18M,81M</interp>
+<standOff type="wordsplit" corresp="#NaṉE003"><interp type="alignment" select="0">3MG9ML11MG16MG6M2G10M2G18M,81M</interp>
 <entry>
 <form>nūl-ē</form>
 <def>treatise</def>

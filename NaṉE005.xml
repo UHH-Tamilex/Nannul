@@ -27,7 +27,7 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="NanE005">
+      <lg xml:id="NaṉE005">
 <l>mutalvaḻi puṭaiyeṉa nūṉmūṉ ṟākum</l>
       </lg>
       <lg xml:lang="en">
@@ -36,7 +36,7 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NanE005"><interp type="alignment" select="0">25MG4M,30M</interp>
+<standOff type="wordsplit" corresp="#NaṉE005"><interp type="alignment" select="0">25MG4M,30M</interp>
 <entry>
 <form>mutal</form>
 <def>original/primary [work]</def>
