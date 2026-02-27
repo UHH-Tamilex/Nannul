@@ -60,7 +60,7 @@
 </entry>
 <entry>
 <form>nūl mukam</form>
-<def>beginning of a treatise</def>
+<def>introduction to a book</def>
 <form type="sandhi">nūṉmukam</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -78,10 +78,13 @@
 <form>tant<c type="elided">u</c> urai</form>
 <def>elliptical commentary</def>
 <form type="sandhi">tanturai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>puṉaint<c type="elided">u</c> urai</form>
-<def>rhetorical language/commentary</def>
+<def>rhetorical language</def>
 <form type="sandhi">puṉainturai</form>
 <gramGrp>
   <gram type="role">noun</gram>
