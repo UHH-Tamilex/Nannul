@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,7 +12,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -36,19 +33,14 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE001"><interp type="alignment" select="0">21MG25MG11MG11M,71M</interp>
+<standOff type="wordsplit" corresp="#NaṉE001">
+<interp type="alignment" select="0">21MG25MG11MG11M,71M</interp>
 <entry>
-<form>muka</form>
-<def>face</def>
+<form>muka <c type="glide">u</c>urai</form>
+<def>introduction</def>
+<form type="sandhi">mukav<c type="glide">u</c>rai</form>
 <gramGrp>
   <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form><c type="glide">v</c>urai</form>
-<def>commentary</def>
-<gramGrp>
-  <gram type="role">root noun</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -59,77 +51,43 @@
 </gramGrp>
 </entry>
 <entry>
-<form>aṇint<c type="elided">u</c></form>
-<def>adorned</def>
-<form type="sandhi">aṇint</form>
-<gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>urai</form>
-<def>commentary</def>
-<gramGrp>
-  <gram type="role">root noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nūl</form>
-<def>treatise/book</def>
-<form type="sandhi">nūṉ</form>
+<form>aṇint<c type="elided">u</c> urai</form>
+<def>preface/introduction</def>
+<form type="sandhi">aṇinturai</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>mukam</form>
-<def>face</def>
+<form>nūl mukam</form>
+<def>introduction to a treatise</def>
+<form type="sandhi">nūṉmukam</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>puṟa</form>
-<def>exterior</def>
+<form>puṟa <c type="glide">u</c>urai</form>
+<def>preface</def>
+<form type="sandhi">puṟav<c type="glide">u</c>rai</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>urai</form>
-<def>commentary</def>
+<form>tant<c type="elided">u</c> urai</form>
+<def>elliptical commentary</def>
+<form type="sandhi">tanturai</form>
 <gramGrp>
-  <gram type="role">root noun</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>tant<c type="elided">u</c></form>
-<def>given</def>
-<form type="sandhi">tant</form>
+<form>puṉaint<c type="elided">u</c> urai</form>
+<def>rhetorical language</def>
+<form type="sandhi">puṉainturai</form>
 <gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>urai</form>
-<def>commentary</def>
-<gramGrp>
-  <gram type="role">root noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>puṉaint<c type="elided">u</c></form>
-<def>decorated</def>
-<form type="sandhi">puṉaint</form>
-<gramGrp>
-  <gram type="role">absolutive</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>urai</form>
-<def>commentary</def>
-<gramGrp>
-  <gram type="role">root noun</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -138,5 +96,6 @@
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
