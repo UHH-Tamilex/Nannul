@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>4</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,7 +39,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE004"><interp type="alignment" select="0">10M2G37MG18MG26MG19MG6MG78MGM,203M</interp>
+<standOff type="wordsplit" corresp="#NaṉE004">
+<interp type="alignment" select="0">10M2G37MG18MG26MG19MG6MG78MGM,203M</interp>
 <entry>
 <form>nūliṉ</form>
 <def>of treatise</def>
@@ -119,40 +117,25 @@
 </gramGrp>
 </entry>
 <entry>
-<form>nāl</form>
-<def>four</def>
-<form type="sandhi">nāṟ</form>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>poruḷ</form>
-<def>thing</def>
-<form type="sandhi">poruṭ</form>
+<form>nāl poruḷ</form>
+<def>the four objectives of life</def>
+<form type="sandhi">nāṟporuṭ</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>payattōṭ<c type="elided">u</c></form>
-<def>with gain </def>
+<def>with gain</def>
 <form type="sandhi">payattōṭ</form>
 <gramGrp>
   <gram type="role">sociative</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>eḻu</form>
-<def>seven</def>
-<gramGrp>
-  <gram type="role">adjective</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>matam</form>
-<def>principle</def>
-<form type="sandhi">matan</form>
+<form>eḻu matam</form>
+<def>seven kinds of attitude of an author towards a certain subject</def>
+<form type="sandhi">eḻumatan</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -311,5 +294,6 @@
   <gram type="role">habitual future</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
