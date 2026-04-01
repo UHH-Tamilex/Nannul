@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram 7.</title> <num></num>.
-            <persName xml:lang="ta"></persName>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram 7.</title> <num/>.
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -38,7 +35,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE007"><interp type="alignment" select="0">16MG5MG55M,78M</interp>
+<standOff type="wordsplit" corresp="#NaṉE007">
+<interp type="alignment" select="0">16MG5MG55M,78M</interp>
 <entry>
 <form>muṉṉōr</form>
 <def>those who are ancients</def>
@@ -126,15 +124,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>vaḻi</form>
-<def>secondary [work] </def>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nūl</form>
-<def>treatise</def>
+<form>vaḻi nūl</form>
+<def>secondary-treatise</def>
+<form type="sandhi">vaḻinūl</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -145,5 +137,6 @@
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
