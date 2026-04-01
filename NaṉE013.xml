@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram </title> <num>13</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE013">
+<l>nutalip pukuta lōttumuṟai vaippē</l>
+<l>tokuttuc cuṭṭal vakuttuk kāṭṭal</l>
+<l>muṭittuk kāṭṭaṉ muṭiviṭaṅ kūṟal</l>
+<l>tāṉeṭuttu moḻital piṟaṉkōṭ kūṟal</l>
+<l>coṟporuḷ viritta ṟoṭarccoṟ puṇarttal</l>
+<l>iraṭṭuṟa moḻita lētuviṉ muṭittal</l>
+<l>oppiṉ muṭittaṉ māṭṭeṟin toḻukal</l>
+<l>iṟantatu vilakka letiratu pōṟṟal</l>
+<l>muṉmoḻintu kōṭal piṉṉatu niṟuttal</l>
+<l>vikaṟpattiṉ muṭittaṉ muṭintavai muṭittal</l>
+<l>uraittu meṉṟa luraittā meṉṟal</l>
+<l>orutalai tuṇita leṭuttuk kāṭṭal</l>
+<l>eṭutta moḻiyi ṉeyta vaittal</l>
+<l>iṉṉa talla tituveṉa moḻital</l>
+<l>eñciya colli ṉeytak kūṟal</l>
+<l>piṟanūṉ muṭintatu tāṉuṭam paṭutal</l>
+<l>taṉkuṟi vaḻakka mikaveṭut turaittal</l>
+<l>colliṉ muṭivi ṉapporuṇ muṭittal</l>
+<l>oṉṟiṉa muṭitta ṟaṉṉiṉa muṭittal</l>
+<l>uyttuṇara vaippeṉa vuttiyeṇ ṇāṉkē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE013"><interp type="alignment" select="0">28M2G48M2G54ML22MG41MG5MG185MG5MG81MG9MG39MG4MG7MG7MG11MG10MG12MG3M2GM,593M</interp>
+<entry>
+<form>nutali<c type="geminated">p</c> pukutal</form>
+<def>a literary device which consists in stating one's theme before dealing with it in detail</def>
+<form type="sandhi">nutali<c type="geminated">p</c>pukutal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōttu muṟai vaipp<c type="elided">u</c>-ē</form>
+<def>arrangement in proper sequence of the chapters and sections of a work</def>
+<form type="simple">ōttu muṟai vaippu</form>
+<form type="sandhi">ōttumuṟaivaippē</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tokuttu<c type="geminated">c</c> cuṭṭal</form>
+<def>summarizing</def>
+<form type="sandhi">tokuttu<c type="geminated">c</c>cuṭṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vakuttu<c type="geminated">k</c> kāṭṭal</form>
+<def>detailed exposition of what has been briefly stated</def>
+<form type="sandhi">vakuttu<c type="geminated">k</c>kāṭṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭittu<c type="geminated">k</c> kāṭṭal</form>
+<def>a literary device which consists in showing that the author's statements are in line with the ancient authorities</def>
+<form type="sandhi">muṭittu<c type="geminated">k</c>kāṭṭaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭiv<c type="elided">u</c> <c type="glide">i</c>iṭam kūṟal</form>
+<def>giving particular reference to the rule followed in the context</def>
+<form type="sandhi">muṭiv<c type="glide">i</c>ṭaṅkūṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṉ eṭuttu moḻital</form>
+<def>citation from ancient authors</def>
+<form type="sandhi">tāṉeṭuttumoḻital</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟaṉ kōḷ kūṟal</form>
+<def>quoting the opinion of another</def>
+<form type="sandhi">piṟaṉkōṭkūṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col poruḷ virittal</form>
+<def>elaborating the etymological significance of a word in a treatise</def>
+<form type="sandhi">coṟporuḷvirittaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṭar<c type="geminated">c</c> col puṇarttal</form>
+<def>putting/adding compound word</def>
+<form type="sandhi">ṟoṭar<c type="geminated">c</c>coṟpuṇarttal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iraṭṭ<c type="elided">u</c> uṟa moḻital</form>
+<def>making intentionally a statement capable of being interpreted in two ways</def>
+<form type="sandhi">iraṭṭuṟamoḻital</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ētuviṉ muṭittal</form>
+<def>subsequent exposition of that which had not been made quite clear previously</def>
+<form type="sandhi">ētuviṉmuṭittal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oppiṉ muṭittal</form>
+<def>application of a rule appertaining to one thing to other things also of a similar character</def>
+<form type="sandhi">oppiṉmuṭittaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṭṭ<c type="elided">u</c> eṟint<c type="elided">u</c> oḻukal</form>
+<def>application of the principle of one sūtra to another when their subjects are similar</def>
+<form type="sandhi">māṭṭeṟintoḻukal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟantatu vilakkal</form>
+<def>rejection of an obsolete expression or usage</def>
+<form type="sandhi">iṟantatuvilakkal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etiratu pōṟṟal</form>
+<def>adoption of modern usage</def>
+<form type="sandhi">etiratupōṟṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ moḻintu kōṭal</form>
+<def>mention at the commencement of what must needs be stated frequently in the course of a treatise</def>
+<form type="sandhi">muṉmoḻintukōṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṉṉatu niṟuttal</form>
+<def>placing later what ought to come earlier in a treatise</def>
+<form type="sandhi">piṉṉatuniṟuttal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vikaṟpattiṉ muṭittal</form>
+<def>a literary device by which the same conclusion is reached in manifold ways</def>
+<form type="sandhi">vikaṟpattiṉmuṭittaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭintavai muṭittal</form>
+<def>recapitulation, briefly restating the point discussed</def>
+<form type="sandhi">muṭintavaimuṭittal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraittum eṉṟal</form>
+<def>hint thrown out to suggest that the explanation of an item may be looked for in a subsequent place</def>
+<form type="sandhi">uraittumeṉṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uraittām eṉṟal</form>
+<def>drawing attention to a subject that has already been explained</def>
+<form type="sandhi">uraittāmeṉṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>orutalai tuṇital</form>
+<def>decision, accepting one or the other of two contrary opinions or views</def>
+<form type="sandhi">orutalaituṇital</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṭuttu<c type="geminated">k</c> kāṭṭal</form>
+<def>citing examples for rules laid down or opinions expressed</def>
+<form type="sandhi">eṭuttu<c type="geminated">k</c>kāṭṭal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṭutta moḻiyiṉ eyta vaittal</form>
+<def>adducing examples from the very work under discussion to illustrate the application of a rule</def>
+<form type="sandhi">eṭuttamoḻiyiṉeytavaittal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉat<c type="elided">u</c> allat<c type="elided">u</c> it<c type="elided">u</c> <c type="glide">a</c>eṉa moḻital</form>
+<def>making a definite statement about a thing where there is any room for doubt, that that is only this and not the other</def>
+<form type="sandhi">iṉṉatallatituveṉ<c type="glide">a</c>moḻital</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eñciya colliṉ eyta<c type="geminated">ū</c> kūṟal</form>
+<def>stating a fact in such a way as to suggest by inference other things not specifically mentioned</def>
+<form type="sandhi">eñciyacolliṉeytakk<c type="geminated">ū</c>ṟal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟa nūl muṭintatu tāṉ uṭampaṭutal</form>
+<def>acquiescence in the conclusions of a work other than one's own</def>
+<form type="sandhi">piṟanūṉmuṭintatutāṉuṭampaṭutal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ kuṟi vaḻakkam mika <c type="glide">t</c>eṭutt<c type="elided">u</c> uraittal</form>
+<def>author's constant use of technical terms and phrases coined by himself</def>
+<form type="sandhi">taṉkuṟivaḻakkamikaveṭu<c type="glide">t</c>turaittal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colliṉ muṭiviṉ a<c type="geminated">o</c> poruḷ muṭittal</form>
+<def>closing a topic with the finishing word or expression of the chapter dealing with it</def>
+<form type="sandhi">colliṉmuṭiviṉapp<c type="geminated">o</c>ruṇmuṭittal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṉṟ<c type="elided">u</c> iṉam muṭittal taṉ <c type="geminated">m</c>iṉam muṭittal</form>
+<def>treating of some item of the subject matter of a treatise in such a way as to bring within its purview other items akin to it</def>
+<form type="sandhi">oṉṟiṉamuṭittaṟaṉṉiṉa<c type="geminated">m</c>uṭittal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uytt<c type="elided">u</c> uṇara vaipp*</form>
+<def>a literary method consisting in the use in exposition of such expressions as would stimulate thought or further enquiry enquiry</def>
+<form type="sandhi">uyttuṇaravaipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form> eṉa </form>
+<def>to say</def>
+<form type="sandhi">eṉa</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>utti </form>
+<form type="sandhi"><c type="glide">v</c>utti</form>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṇ</form>
+<def>eight</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>nāṉk<c type="elided">u</c>-ē</form>
+<def>four</def>
+<form type="simple">nāṉku</form>
+<form type="sandhi"><c type="geminated">ṇ</c>āṉk</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
