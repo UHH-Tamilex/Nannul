@@ -36,7 +36,7 @@
   </body>
 </text>
 <standOff type="wordsplit" corresp="#NaṉE006">
-<interp type="alignment" select="0">15ML40ML6M,63M</interp>
+<interp type="alignment" select="0">15ML40MG6M,63M</interp>
 <entry>
 <form>avaṟṟuḷ</form>
 <def>among</def>
@@ -91,17 +91,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>mutal</form>
-<def>original/primary</def>
-<form type="sandhi">mutaṉ</form>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nūl</form>
-<def>treatise</def>
-<form type="sandhi">ṉūl</form>
+<form>mutal nūl</form>
+<def>original/primary-treatise</def>
+<form type="sandhi">mutaṉūl</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
