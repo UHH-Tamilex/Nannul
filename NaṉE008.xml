@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram 8.</title> <num></num>.
-            <persName xml:lang="ta"></persName>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram 8.</title> <num/>.
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -37,7 +34,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE008"><interp type="alignment" select="0">10M2G28MG20M,61M</interp>
+<standOff type="wordsplit" corresp="#NaṉE008">
+<interp type="alignment" select="0">10M2G28MG20M,61M</interp>
 <entry>
 <form>iruvar</form>
 <def>those-two</def>
@@ -102,15 +100,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>puṭai</form>
-<def>a work, which has for its source original and secondary [works]</def>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>nūl</form>
-<def>treatise</def>
+<form>puṭai nūl</form>
+<def>a work, which has for its source original and secondary treatises</def>
+<form type="sandhi">puṭainūl</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -121,5 +113,6 @@
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
