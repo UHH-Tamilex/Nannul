@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram </title> <num>20</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE020">
+<l>pāṭaṅ karuttē colvakai coṟporuḷ</l>
+<l>tokutturai yutāraṇam viṉāviṭai vicēṭam</l>
+<l>virivati kāran tuṇivu payaṉō</l>
+<l>ṭāciriya vacaṉameṉ ṟīrē ḻuraiyē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE020"><interp type="alignment" select="0">11M2G23MG34MG21MG17MG8MG2M,123M</interp>
+<entry>
+<form>pāṭam</form>
+<def>subject</def>
+<form type="sandhi">pāṭaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karutt<c type="elided">u</c>-ē</form>
+<def>meaning</def>
+<form type="simple">karuttu</form>
+<form type="sandhi">karutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>col vakai</form>
+<def>classification of words into parts of speech</def>
+<form type="sandhi">colvakai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col poruḷ</form>
+<def>etymological significance of a word</def>
+<form type="sandhi">coṟporuḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tokutt<c type="elided">u</c> urai</form>
+<def>free rendering of the text</def>
+<form type="sandhi">tokutturai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>utāraṇam</form>
+<def>example</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉā viṭai</form>
+<def>reply in the form of a question</def>
+<form type="sandhi">viṉāviṭai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vicēṭam</form>
+<def>explanatory note</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viriv<c type="elided">u</c></form>
+<def>expansion</def>
+<form type="sandhi">viriv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atikāram</form>
+<def>a commentary defining the scope of the other sūtras in a section of a treatise</def>
+<form type="sandhi">atikāran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇivu</form>
+<def>decision</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payaṉōṭ<c type="elided">u</c></form>
+<def>with signification</def>
+<form type="sandhi">payaṉōṭ</form>
+</entry>
+<entry>
+<form>āciriya vacaṉam</form>
+<def>authoritative text</def>
+<form type="sandhi">āciriyavacaṉam</form>
+</entry>
+<entry>
+<form>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi">eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īr</form>
+<def>two</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻ</form>
+<def>seven</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urai-<c type="glide">y</c>ē</form>
+<def>commentary</def>
+<form type="simple">urai</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
