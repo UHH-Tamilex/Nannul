@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram </title> <num>18</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE018">
+<l>āṟṟoḻuk</l>
+<l>karimā nōkkan tavaḷaip pāyttup</l>
+<l>paruntiṉ viḻukkā ṭaṉṉacūt tiranilai</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE018"><interp type="alignment" select="0">8MG42MG16M,68M</interp>
+<entry>
+<form>āṟṟoḻukku</form>
+<def>flowing of a river (the most natural order of words which clearly brings out the meaning)</def>
+<form type="sandhi">āṟṟoḻukk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arimā nōkkam</form>
+<def>the line of the lion's look whereby a cūttiram is connected with those that have preceded as well as those that follow</def>
+<form type="sandhi">arimānōkkan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tavaḷai<c type="geminated">p</c> pāyttu+</form>
+<def>the principle of the frog's leap, whereby a cūttiram is so constructed as to have reference to the next but one that follows it</def>
+<form type="sandhi">tavaḷai<c type="geminated">p</c>pāyttup</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paruntiṉ viḻukkāṭ*</form>
+<def>The principle of the kite's swoop whereby a sūtra occurring in a treatise is not directly connected either with its preceding or succeeding sūtra, but connected with some remote sūtra</def>
+<form type="sandhi">paruntiṉviḻukkāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+  <gram type="role">comparative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūttira</form>
+<def>of sutra</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilai</form>
+<def>standing</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
