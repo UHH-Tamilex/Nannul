@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>25</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE025">
+<l>kulaṉaru ṭeyvaṅ koḷkai mēṉmai</l>
+<l>kalaipayi ṟeḷivu kaṭṭurai vaṉmai</l>
+<l>nilamalai niṟaikōṉ malarnikar māṭciyum</l>
+<l>ulakiya laṟivō ṭuyarkuṇa miṉaiyavum</l>
+<l>amaipava ṉūlurai yāciri yaṉṉē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE025"><interp type="alignment" select="0">9ML27ML24ML27MG7MG25MG12ML15MG2M,156M</interp>
+<entry>
+<form>kulaṉ</form>
+<def>noble birth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷ</form>
+<def>grace</def>
+<form type="sandhi">aruṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teyvam koḷkai</form>
+<def>theistic belief</def>
+<form type="sandhi">ṭeyvaṅkoḷkai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉmai</form>
+<def>superiority</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kalai</form>
+<def>arts/treatise</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payil</form>
+<def>to become trained</def>
+<form type="sandhi">payiṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teḷivu</form>
+<def>clarity</def>
+<form type="sandhi">ṟeḷivu</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭṭurai</form>
+<def>expressing clearly</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṉmai</form>
+<def>eloquence</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nilam</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>malai</form>
+<def>mountain</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟaikōl</form>
+<def>scale</def>
+<form type="sandhi">niṟaikōṉ</form>
+</entry>
+<entry>
+<form>malar</form>
+<def>flower</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nikar</form>
+<def>to be similar</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṭci-<c type="glide">y</c>um</form>
+<def>greatness</def>
+<form type="simple">māṭci</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ulak<c type="elided">u</c> iyal</form>
+<def>worldly custom</def>
+<form type="sandhi">ulakiyal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟivōṭ</form>
+<def>with knowledge</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyar</form>
+<def>be high</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṇam</form>
+<def>quality</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉaiya-<c type="glide">v</c>um</form>
+<def>these are</def>
+<form type="simple">iṉaiya</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>amaipavaṉ</form>
+<def>he who will be connected</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nūl</form>
+<def>treatise</def>
+<form type="sandhi">ṉūl</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urai <c type="glide">ā</c>āciriyaṉ-<c type="geminated">ē</c>ē</form>
+<def>commentator</def>
+<form type="simple">urai āciriyaṉ</form>
+<form type="sandhi">uraiy<c type="glide">ā</c>ciriyaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
