@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>39</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +13,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -44,7 +41,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE039"><interp type="alignment" select="0">10M2G74MG77MG52MG5MG34M,258M</interp>
+<standOff type="wordsplit" corresp="#NaṉE039">
+<interp type="alignment" select="0">10M2G74MG77MG52MG5MG34M,258M</interp>
 <entry>
 <form>kōṭal</form>
 <def>taking lessons from a teacher</def>
@@ -290,14 +288,14 @@
 </entry>
 <entry>
 <form>kēṭṭavai</form>
-<def>those which were heard</def>
+<def>those which were learnt</def>
 <gramGrp>
   <gram type="role">verbal noun</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>kēṭṭavai</form>
-<def>those which were heard</def>
+<def>those which were learnt</def>
 <gramGrp>
   <gram type="role">verbal noun</gram>
 </gramGrp>
@@ -360,5 +358,6 @@
 <gramGrp>
   <gram type="role">third person</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
