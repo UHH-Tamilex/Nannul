@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>37</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE037">
+<l>aṉṉa māvē maṇṇoṭu kiḷiyē</l>
+<l>illik kuṭamā ṭerumai neyyari</l>
+<l>aṉṉar talaiyiṭai kaṭaimā ṇākkar</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE037"><interp type="alignment" select="0">6MG13MG14MG41M,77M</interp>
+<entry>
+<form>aṉṉam</form>
+<def>Species of swan</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā-<c type="glide">v</c>ē</form>
+<def>cow</def>
+<form type="simple">ā</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>maṇṇoṭu</form>
+<def>with earth</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiḷi-<c type="glide">y</c>ē</form>
+<def>parakeet</def>
+<form type="simple">kiḷi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>illi<c type="geminated">k</c> kuṭam</form>
+<def>pot with hole</def>
+<form type="sandhi">illi<c type="geminated">k</c>kuṭam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭ<c type="elided">u</c></form>
+<def>sheep</def>
+<form type="sandhi">āṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>erumai</form>
+<def>buffalo</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neyyari</form>
+<def>the fibrous covering about the base of the palmyra or coconut stalk  </def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉar</form>
+<def>thus-they</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talai</form>
+<def>first in rank</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṭai</form>
+<def>middle in rank</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭai</form>
+<def>low in rank</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṇākkar</form>
+<def>pupils</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
