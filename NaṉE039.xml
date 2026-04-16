@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>39</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE039">
+<l>kōṭaṉ marapē kūṟuṅ kālaip</l>
+<l>poḻutoṭu ceṉṟu vaḻipaṭaṉ muṉiyāṉ</l>
+<l>kuṇattoṭu paḻaki yavaṉkuṟip piṟcārn</l>
+<l>tiruveṉa viruntu colleṉac collip</l>
+<l>parukuva ṉaṉṉa vārvatta ṉākic</l>
+<l>cittirap pāvaiyi ṉattaka vaṭaṅkic</l>
+<l>cevivā yāka neñcukaḷa ṉākak</l>
+<l>kēṭṭavai kēṭṭavai viṭātuḷat tamaittup</l>
+<l>pōveṉap pōta leṉmaṉār pulavar</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE039"><interp type="alignment" select="0">10M2G74MG77MG52MG5MG34M,258M</interp>
+<entry>
+<form>kōṭal</form>
+<def>taking lessons from a teacher</def>
+<form type="sandhi">kōṭaṉ</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>marap<c type="elided">u</c>-ē</form>
+<def>custom</def>
+<form type="simple">marapu</form>
+<form type="sandhi">marap</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kūṟum kālai+</form>
+<def>when explaining</def>
+<form type="sandhi">kūṟuṅkālaip</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻutoṭu</form>
+<def>with time</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟu</form>
+<def>gone</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻipaṭal</form>
+<def>worshipping</def>
+<form type="sandhi">vaḻipaṭaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉiyāṉ</form>
+<def>he who does not hate</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṇattoṭu</form>
+<def>with character</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paḻaki</form>
+<def>be used to</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>avaṉ</form>
+<def>that one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟippiṉ</form>
+<def>of intention</def>
+<form type="sandhi">kuṟippiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cārnt<c type="elided">u</c></form>
+<def>approached</def>
+<form type="sandhi">cārnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iru</form>
+<def>be/remain</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉa</form>
+<def>to say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iruntu</form>
+<def>been</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col</form>
+<def>tell</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">l</c>eṉa<c type="geminated">c</c></form>
+<def>to say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>colli<c type="geminated">p</c></form>
+<def>spoken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>parukuvaṉ</form>
+<def>he who drinks</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+  <gram type="role">comparative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ārvattaṉ</form>
+<def>he who has desire</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āki<c type="geminated">c</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cittira<c type="geminated">p</c> pāvaiyiṉ</form>
+<def>of carved image</def>
+<form type="sandhi">cittira<c type="geminated">p</c>pāvaiyiṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">t</c></form>
+<def>that</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takav<c type="elided">u</c></form>
+<def>fitness</def>
+<form type="sandhi">takav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭaṅki<c type="geminated">c</c></form>
+<def>obeying</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cevi</form>
+<def>ear</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka</form>
+<def>to become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñcu</form>
+<def>mind</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷaṉ</form>
+<def>vessel</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āka<c type="geminated">k</c></form>
+<def>to become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭavai</form>
+<def>those which were heard</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kēṭṭavai</form>
+<def>those which were heard</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭāt<c type="elided">u</c></form>
+<def>without letting go</def>
+<form type="sandhi">viṭāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷatt<c type="elided">u</c></form>
+<def>in mind</def>
+<form type="sandhi">uḷatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amaittu<c type="geminated">p</c></form>
+<def>getting into possession</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pō</form>
+<def>go</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉa<c type="geminated">p</c></form>
+<def>to say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōtal</form>
+<def>going</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉmaṉār</form>
+<def>they say</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pulavar</form>
+<def>poet-scholar</def>
+<gramGrp>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
