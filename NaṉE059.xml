@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>59</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE059">
+<l>uyirmey yāyta muyiraḷa poṟṟaḷa</l>
+<l>paḵkiya i u ai au maḵkāṉ</l>
+<l>taṉinilai pattuñ cārpeḻut tākum</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE059"><interp type="alignment" select="0">21MG3MG4MG7MG24M2G6MG5MG4M,37MG44M</interp>
+<entry>
+<form>uyir mey</form>
+<def>consonant-vowel — composed of a consonant and a vowel</def>
+<form type="sandhi">uyirmey</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">y</c>āytam</form>
+<def>letter 'ḵ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyir aḷap*</form>
+<def>a vowel which sounds with more than its normal quantity</def>
+<form type="sandhi">uyiraḷap</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oṟṟ<c type="elided">u</c> aḷap*</form>
+<def>a consonant being doubled in writing</def>
+<form type="sandhi">oṟṟaḷap</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḵkiya</form>
+<def>which being shortened</def>
+<form type="sandhi">aḵkiyai</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i</form>
+<def>shortened 'i'</def>
+<form type="sandhi"></form>
+<gramGrp>
+</gramGrp>
+</entry>
+<entry>
+<form>u</form>
+<def>shortened 'u'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ai</form>
+<def>shortened 'ai'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>au</form>
+<def>shortened 'au'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maḵkāṉ</form>
+<def>shortened 'm'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉi nilai</form>
+<def>shortened 'ḵ'</def>
+<form type="sandhi">taṉinilai</form>
+</entry>
+<entry>
+<form>patt<c type="elided">u</c>-um</form>
+<def>ten</def>
+<form type="simple">pattu</form>
+<form type="sandhi">patt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cārp<c type="elided">u</c></form>
+<def>dependent</def>
+<form type="sandhi">cārp</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻutt<c type="elided">u</c></form>
+<def>letters</def>
+<form type="sandhi">eḻutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
