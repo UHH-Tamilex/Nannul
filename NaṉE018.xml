@@ -7,7 +7,7 @@
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Eḻuttatikāram </title> <num>18</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -38,9 +38,10 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE018"><interp type="alignment" select="0">8MG42MG16M,68M</interp>
+<standOff type="wordsplit" corresp="#NaṉE018">
+<interp type="alignment" select="0">8MG42MG16M,68M</interp>
 <entry>
-<form>āṟṟoḻukku</form>
+<form>āṟṟoḻukk<c type="elided">u</c></form>
 <def>flowing of a river (the most natural order of words which clearly brings out the meaning)</def>
 <form type="sandhi">āṟṟoḻukk</form>
 <gramGrp>
@@ -56,15 +57,15 @@
 </gramGrp>
 </entry>
 <entry>
-<form>tavaḷai<c type="geminated">p</c> pāyttu+</form>
+<form>tavaḷai<c type="geminated">p</c> pāyttu<c type="geminated">p</c></form>
 <def>the principle of the frog's leap, whereby a cūttiram is so constructed as to have reference to the next but one that follows it</def>
-<form type="sandhi">tavaḷai<c type="geminated">p</c>pāyttup</form>
+<form type="sandhi">tavaḷai<c type="geminated">p</c>pāyttu<c type="geminated">p</c></form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>paruntiṉ viḻukkāṭ*</form>
+<form>paruntiṉ viḻukkāṭ<c type="elided">u</c></form>
 <def>The principle of the kite's swoop whereby a sūtra occurring in a treatise is not directly connected either with its preceding or succeeding sūtra, but connected with some remote sūtra</def>
 <form type="sandhi">paruntiṉviḻukkāṭ</form>
 <gramGrp>
@@ -91,5 +92,6 @@
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
