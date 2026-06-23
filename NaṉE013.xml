@@ -7,7 +7,7 @@
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Eḻuttatikāram </title> <num>13</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
@@ -16,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -55,7 +55,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE013"><interp type="alignment" select="0">28M2G48M2G54ML22MG41MG5MG185MG5MG81MG9MG39MG4MG7MG7MG11MG10MG12MG3M2GM,593M</interp>
+<standOff type="wordsplit" corresp="#NaṉE013">
+<interp type="alignment" select="0">28M2G48MG54ML22MG41MG5MG185MG5MG81MG9MG39MG4MG7MG7MG11MG10MG15M2GM,591M</interp>
 <entry>
 <form>nutali<c type="geminated">p</c> pukutal</form>
 <def>a literary device which consists in stating one's theme before dealing with it in detail</def>
@@ -99,9 +100,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>muṭiv<c type="elided">u</c> <c type="glide">i</c>iṭam kūṟal</form>
+<form>muṭiv<c type="elided">u</c> iṭam kūṟal</form>
 <def>giving particular reference to the rule followed in the context</def>
-<form type="sandhi">muṭiv<c type="glide">i</c>ṭaṅkūṟal</form>
+<form type="sandhi">muṭiviṭaṅkūṟal</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -259,17 +260,17 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iṉṉat<c type="elided">u</c> allat<c type="elided">u</c> it<c type="elided">u</c> <c type="glide">a</c>eṉa moḻital</form>
+<form>iṉṉat<c type="elided">u</c> allat<c type="elided">u</c> itu ~eṉa moḻital</form>
 <def>making a definite statement about a thing where there is any room for doubt, that that is only this and not the other</def>
-<form type="sandhi">iṉṉatallatituveṉ<c type="glide">a</c>moḻital</form>
+<form type="sandhi">iṉṉatallatituveṉamoḻital</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>eñciya colliṉ eyta<c type="geminated">ū</c> kūṟal</form>
+<form>eñciya colliṉ eyta<c type="geminated">k</c> kūṟal</form>
 <def>stating a fact in such a way as to suggest by inference other things not specifically mentioned</def>
-<form type="sandhi">eñciyacolliṉeytakk<c type="geminated">ū</c>ṟal</form>
+<form type="sandhi">eñciyacolliṉeyta<c type="geminated">k</c>kūṟal</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -283,31 +284,31 @@
 </gramGrp>
 </entry>
 <entry>
-<form>taṉ kuṟi vaḻakkam mika <c type="glide">t</c>eṭutt<c type="elided">u</c> uraittal</form>
+<form>taṉ kuṟi vaḻakkam mika ~eṭutt<c type="elided">u</c> uraittal</form>
 <def>author's constant use of technical terms and phrases coined by himself</def>
-<form type="sandhi">taṉkuṟivaḻakkamikaveṭu<c type="glide">t</c>turaittal</form>
+<form type="sandhi">taṉkuṟivaḻakkamikaveṭutturaittal</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>colliṉ muṭiviṉ a<c type="geminated">o</c> poruḷ muṭittal</form>
+<form>colliṉ muṭiviṉ a<c type="geminated">p</c> poruḷ muṭittal</form>
 <def>closing a topic with the finishing word or expression of the chapter dealing with it</def>
-<form type="sandhi">colliṉmuṭiviṉapp<c type="geminated">o</c>ruṇmuṭittal</form>
+<form type="sandhi">colliṉmuṭiviṉa<c type="geminated">p</c>poruṇmuṭittal</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>oṉṟ<c type="elided">u</c> iṉam muṭittal taṉ <c type="geminated">m</c>iṉam muṭittal</form>
+<form>oṉṟ<c type="elided">u</c> iṉam muṭittal taṉ +iṉam muṭittal</form>
 <def>treating of some item of the subject matter of a treatise in such a way as to bring within its purview other items akin to it</def>
-<form type="sandhi">oṉṟiṉamuṭittaṟaṉṉiṉa<c type="geminated">m</c>uṭittal</form>
+<form type="sandhi">oṉṟiṉamuṭittaṟaṉṉiṉamuṭittal</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>uytt<c type="elided">u</c> uṇara vaipp*</form>
+<form>uytt<c type="elided">u</c> uṇara vaipp<c type="elided">u</c></form>
 <def>a literary method consisting in the use in exposition of such expressions as would stimulate thought or further enquiry enquiry</def>
 <form type="sandhi">uyttuṇaravaipp</form>
 <gramGrp>
@@ -315,16 +316,14 @@
 </gramGrp>
 </entry>
 <entry>
-<form> eṉa </form>
+<form>eṉa</form>
 <def>to say</def>
-<form type="sandhi">eṉa</form>
 <gramGrp>
   <gram type="role">infinitive</gram>
 </gramGrp>
 </entry>
 <entry>
-<form><c type="glide">v</c>utti </form>
-<form type="sandhi"><c type="glide">v</c>utti</form>
+<form><c type="glide">v</c>utti</form>
 </entry>
 <entry>
 <form><c type="glide">y</c>eṇ</form>
@@ -334,12 +333,11 @@
 </gramGrp>
 </entry>
 <entry>
-<form><c type="geminated">ṇ</c>nāṉk<c type="elided">u</c>-ē</form>
+<form>nāṉk<c type="elided">u</c>-ē</form>
 <def>four</def>
 <form type="simple">nāṉku</form>
-<form type="sandhi"><c type="geminated">ṇ</c>āṉk</form>
-<gramGrp>
-</gramGrp>
+<form type="sandhi">ṇāṉk</form>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
