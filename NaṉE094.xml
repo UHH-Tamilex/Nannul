@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>94</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE094">
+<l>taṟcuṭ ṭaḷapoḻi yaimmū vaḻiyum</l>
+<l>naiyu mauvu mutalaṟ ṟākum</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE094"><interp type="alignment" select="0">7MG4MG13MG11MG3ML7MG4M,55M</interp>
+<entry>
+<form>taṉ cuṭṭ<c type="elided">u</c></form>
+<def>reference to one's self</def>
+<form type="sandhi">taṟcuṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷap<c type="elided">u</c></form>
+<def>measure</def>
+<form type="sandhi">aḷap</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḻi</form>
+<def>be excepted</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ai<c type="geminated">m</c></form>
+<def>syllable 'ai'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mū</form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻi-<c type="glide">y</c>um</form>
+<def>place</def>
+<form type="simple">vaḻi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>naiyum</form>
+<def>it will be shortened</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>au-<c type="glide">v</c>um</form>
+<def>syllable 'au'</def>
+<form type="simple">au</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mutal</form>
+<def>initial</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟ<c type="elided">u</c></form>
+<def>thus-it</def>
+<form type="sandhi">aṟṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
