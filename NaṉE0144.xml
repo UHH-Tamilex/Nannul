@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>144</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE0144">
+<l>ṟavvo ṭukara vummainikaḻ pallavum</l>
+<l>tavvo ṭiṟappu metirvum ṭavvoṭu</l>
+<l>kaḻivuṅ kavvō ṭetirvumiṉ ṉēval</l>
+<l>viyaṅkō ḷimmā retirvum pāntam</l>
+<l>celavoṭu varavuñ ceyyunikaḻ vetirvum</l>
+<l>etirmaṟai mummaiyu mēṟku mīṅkē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE0144"><interp type="alignment" select="0">6MG17MG4MG9MG5M2G7M2G14M2G8MG5M2G2ML25M2G4MG17M2G7MR6MG5M2G17MG11M2GM,196M</interp>
+<entry>
+<form>ṟavvoṭ<c type="elided">u</c></form>
+<def>with medial particle 'ṟ'</def>
+<form type="sandhi">ṟavvoṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ukara</form>
+<def>suffix 'u'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ummai</form>
+<def>suffix 'um'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nikaḻp<c type="elided">u</c></form>
+<def>present tense</def>
+<form type="sandhi">nikaḻp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alla-<c type="glide">v</c>um</form>
+<def>not so-they</def>
+<form type="simple">alla</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tavvoṭ<c type="elided">u</c></form>
+<def>with medial particle 't'</def>
+<form type="sandhi">tavvoṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟapp<c type="elided">u</c>-um</form>
+<def>past tense</def>
+<form type="simple">iṟappu</form>
+<form type="sandhi">iṟapp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>etirv<c type="elided">u</c>-um</form>
+<def>future tense</def>
+<form type="simple">etirvu</form>
+<form type="sandhi">etirv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ṭavvoṭu</form>
+<def>with medial particle 'ṭ'</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻiv<c type="elided">u</c>-um</form>
+<def>past tense</def>
+<form type="simple">kaḻivu</form>
+<form type="sandhi">kaḻiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kavvōṭ<c type="elided">u</c></form>
+<def>with medial particle 'k'</def>
+<form type="sandhi">kavvōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etirv<c type="elided">u</c>-um</form>
+<def>future tense</def>
+<form type="simple">etirvu</form>
+<form type="sandhi">etirv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>suffix 'miṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ēval</form>
+<def>command</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viyaṅkōḷ</form>
+<def>optative</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">m</c></form>
+<def>suffix 'i'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mār</form>
+<def>suffix 'mār'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etirv<c type="elided">u</c>-um</form>
+<def>future tense</def>
+<form type="simple">etirvu</form>
+<form type="sandhi">etirv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pa</form>
+<def>suffix 'pa'</def>
+<form type="sandhi">pā</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>antam</form>
+<def>end</def>
+<form type="sandhi">ntam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>celavoṭu</form>
+<def>with past tense</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varav<c type="elided">u</c>-um</form>
+<def>future tense</def>
+<form type="simple">varavu</form>
+<form type="sandhi">varav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ceyyum</form>
+<def>the word 'ceyyum'</def>
+<form type="sandhi">ceyyun</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nikaḻv<c type="elided">u</c></form>
+<def>present tense</def>
+<form type="sandhi">nikaḻv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>etirv<c type="elided">u</c>-um</form>
+<def>future tense</def>
+<form type="simple">etirvu</form>
+<form type="sandhi">etirv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>etir maṟai</form>
+<def>negative</def>
+<form type="sandhi">etirmaṟai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mummai-<c type="glide">y</c>um</form>
+<def>three tenses</def>
+<form type="simple">mummai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ēṟkum</form>
+<def>accepts</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṅk<c type="elided">u</c>-ē</form>
+<def>here</def>
+<form type="simple">īṅku</form>
+<form type="sandhi">īṅk</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
