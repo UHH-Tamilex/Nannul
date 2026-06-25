@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>139</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE0139">
+<l>aṉāṉ aḷāḷ arār pammār</l>
+<l>aā kuṭutuṟu eṉēṉ alaṉ</l>
+<l>amām emēm omo ṭummūr</l>
+<l>kaṭataṟa aiāy immiṉ irīr</l>
+<l>īyar kayavu meṉpavum piṟavum</l>
+<l>viṉaiyiṉ vikuti peyariṉuñ cilavē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE0139"><interp type="alignment" select="0">48MG41MG7MG24MG6MG2M,133M</interp>
+<entry>
+<form>aṉ</form>
+<def>suffxi 'aṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉ</form>
+<def>suffix 'āṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷ</form>
+<def>suffix 'aḷ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āḷ</form>
+<def>suffix 'āḷ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ar</form>
+<def>suffix 'ar'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ār</form>
+<def>suffix 'ār'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pa<c type="geminated">m</c></form>
+<def>suffix 'pa'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mār</form>
+<def>suffix 'mār'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a</form>
+<def>suffix 'a'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>suffix 'ā'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ku</form>
+<def>suffix 'ku'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṭu</form>
+<def>suffxi 'ṭu'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tu</form>
+<def>suffix 'tu'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṟu</form>
+<def>suffix 'ṟu'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>suffix 'eṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṉ</form>
+<def>suffix 'ēṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>al</form>
+<def>suffix 'al'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉ</form>
+<def>suufix 'aṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>am</form>
+<def>suffix 'am'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>suffix 'ām'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
+<def>suffix 'em'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēm</form>
+<def>suffix 'ēm'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōmoṭ<c type="elided">u</c></form>
+<def>with suffix 'ōm'</def>
+<form type="sandhi">omoṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>um</form>
+<def>suffix 'um'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>ūr</form>
+<def>mount</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ka</form>
+<def>element 'ka'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṭa</form>
+<def>element 'ṭa'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ta</form>
+<def>element 'ta'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṟa</form>
+<def>element 'ṟa'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ai</form>
+<def>suffix 'ai'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>suffix 'āy'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">m</c></form>
+<def>suffix 'i'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṉ</form>
+<def>suffix 'miṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ir</form>
+<def>suffix 'ir'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īr</form>
+<def>suffix 'īr'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īyar</form>
+<def>suffix 'iyar'</def>
+</entry>
+<entry>
+<form>ka</form>
+<def>suffix 'ka'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ya</form>
+<def>suffix 'ya'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>um</form>
+<def>suffix 'um'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpa-<c type="glide">v</c>um</form>
+<def>those which will be said</def>
+<form type="simple">eṉpa</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>piṟa-<c type="glide">v</c>um</form>
+<def>other.they</def>
+<form type="simple">piṟa</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viṉaiyiṉ</form>
+<def>of verb</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vikuti</form>
+<def>termination</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peyariṉ-um</form>
+<def>of noun</def>
+<form type="simple">peyariṉ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>cila-<c type="glide">v</c>ē</form>
+<def>few</def>
+<form type="simple">cila</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
