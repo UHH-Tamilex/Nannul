@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>147</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE0147">
+<l>ravviṟ kammuta lāmuk kuṟilum</l>
+<l>lavviṟ kimmuta liraṇṭum yavviṟ</l>
+<l>kiyyu moḻimuta lākimuṉ varumē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE0147"><interp type="alignment" select="0">7MG9ML7MG9MG12M2G9MG2MG3ML19MGM,88M</interp>
+<entry>
+<form>ravviṟk<c type="elided">u</c></form>
+<def>to the letter 'ra'</def>
+<form type="sandhi">ravviṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">m</c></form>
+<def>syllable 'a'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutal</form>
+<def>beginning with</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becoming</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mu<c type="geminated">k</c></form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟil-um</form>
+<def>short vowel</def>
+<form type="simple">kuṟil</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>lavviṟk<c type="elided">u</c></form>
+<def>to the letter 'la'</def>
+<form type="sandhi">lavviṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">m</c></form>
+<def>syllable 'i'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutal</form>
+<def>beginning with</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iraṇṭ<c type="elided">u</c>-um</form>
+<def>two</def>
+<form type="simple">iraṇṭu</form>
+<form type="sandhi">iraṇṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>yavviṟk<c type="elided">u</c></form>
+<def>to the letter 'ya'</def>
+<form type="sandhi">yavviṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">y</c>-<c type="geminated">y</c>um</form>
+<def>syllable 'i'</def>
+<form type="simple">i</form>
+<form type="sandhi">i<c type="geminated">y</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>moḻi</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mutal</form>
+<def>initial</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āki</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>previously</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varum-ē</form>
+<def>comes</def>
+<form type="simple">varum</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
