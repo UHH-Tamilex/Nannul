@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>158</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
-        <editor role="translator" xml:lang="en"></editor>
+        <editor role="translator" xml:lang="en"/>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -17,7 +14,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -39,7 +36,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE0158"><interp type="alignment" select="0">49MG44M,94M</interp>
+<standOff type="wordsplit" corresp="#NaṉE0158">
+<interp type="alignment" select="0">49MG44M,94M</interp>
 <entry>
 <form>potu<c type="geminated">p</c> peyar</form>
 <def>generic name</def>
@@ -93,7 +91,7 @@
 </entry>
 <entry>
 <form>iyalp<c type="elided">u</c></form>
-<def>nature</def>
+<def>combination of augmentation, change and elision</def>
 <form type="sandhi">iyalp</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -122,7 +120,7 @@
 </entry>
 <entry>
 <form>ramuṉ</form>
-<def>in front of 'r' </def>
+<def>in front of 'r'</def>
 <gramGrp>
   <gram type="role">locative</gram>
 </gramGrp>
@@ -151,7 +149,7 @@
 </entry>
 <entry>
 <form>vikāram</form>
-<def>change in a form of words</def>
+<def>change in the form of words</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -170,5 +168,6 @@
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
