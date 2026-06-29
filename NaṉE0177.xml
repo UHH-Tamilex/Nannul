@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>177</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE0177">
+<l>pavvī nīmī muṉṉa ralvaḻi</l>
+<l>iyalpām valimeli mikalumā mīkkē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE0177"><interp type="alignment" select="0">26MG15MG4ML3M2GM,54M</interp>
+<entry>
+<form>pa<c type="geminated">v</c></form>
+<def>consonant 'p'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">v</c>ī</form>
+<def>syllable 'ī'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>the word 'nī' meaning 'you'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mī</form>
+<def>the word 'mī' meaning 'place (up)'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉṉar</form>
+<def>before</def>
+<gramGrp>
+  <gram type="role">suffix</gram>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>alvaḻi</form>
+<def>undeclined by case</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyalp<c type="elided">u</c></form>
+<def>nature</def>
+<form type="sandhi">iyalp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vali</form>
+<def>hard consonants</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>meli</form>
+<def>soft consonants</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mikal-um</form>
+<def>becoming-much</def>
+<form type="simple">mikal</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīkk<c type="elided">u</c>-ē</form>
+<def>to the word 'mī'</def>
+<form type="simple">mīkku</form>
+<form type="sandhi">mīkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
