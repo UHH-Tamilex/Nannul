@@ -39,8 +39,9 @@
 </text>
 <standOff type="wordsplit" corresp="#NaṉE0203"><interp type="alignment" select="0">15MG7MG5M2GM,32M</interp>
 <entry>
-<form>uṭaṉmēl</form>
+<form>uṭalmēl</form>
 <def>upon consonants</def>
+<form type="sandhi">uṭaṉmēl</form>
 <gramGrp>
   <gram type="role">locative</gram>
 </gramGrp>
