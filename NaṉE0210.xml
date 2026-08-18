@@ -37,7 +37,7 @@
   </body>
 </text>
 <standOff type="wordsplit" corresp="#NaṉE0210">
-<interp type="alignment" select="0">35MG12MG4MG17MG10MG3MG2M,89M</interp>
+<interp type="alignment" select="0">35MG12MG4MG17MG10MG5M,88M</interp>
 <entry>
 <form>cāti</form>
 <def>clan/race</def>
@@ -157,14 +157,12 @@
 </gramGrp>
 </entry>
 <entry>
-<form>alvaḻi-<c type="glide">y</c>um-<c type="geminated">m</c>ē</form>
+<form>alvaḻi-<c type="glide">y</c>ummē</form>
 <def>in non-case relation</def>
-<form type="simple">alvaḻi-um</form>
-<form type="sandhi">alvaḻi<c type="glide">y</c>um</form>
+<form type="sandhi">alvaḻi<c type="glide">y</c>ummē</form>
 <gramGrp>
   <gram type="role">locative</gram>
 </gramGrp>
-<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 </standOff>
 </TEI>
