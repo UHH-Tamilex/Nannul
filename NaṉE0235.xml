@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>235</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE0235">
+<l>tevveṉ moḻiyē toḻiṟpeya raṟṟē</l>
+<l>mavvariṉ vaḵkāṉ mavvu mākum</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE0235"><interp type="alignment" select="0">10MG15M2G18MG7M,54M</interp>
+<entry>
+<form>tev</form>
+<def>the word 'tev' -enemy/enmity</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">v</c>eṉ</form>
+<def>say</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻi-<c type="glide">y</c>ē</form>
+<def>word</def>
+<form type="simple">moḻi</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>toḻil peyar</form>
+<def>verbal noun</def>
+<form type="sandhi">toḻiṟpeyar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟṟ<c type="elided">u</c>-ē</form>
+<def>thus-it</def>
+<form type="simple">aṟṟu</form>
+<form type="sandhi">aṟṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>ma<c type="geminated">v</c></form>
+<def>consonant 'm'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>variṉ</form>
+<def>come if even</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḵkāṉ</form>
+<def>consonant 'v'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ma<c type="geminated">v</c>-<c type="geminated">v</c>um</form>
+<def>consonant 'm'</def>
+<form type="simple">ma</form>
+<form type="sandhi">ma<c type="geminated">v</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
