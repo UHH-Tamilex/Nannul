@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Eḻuttatikāram</title> <num>254</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉE0254">
+<l>iyalpiṉ vikāramum vikārat tiyalpum</l>
+<l>uyartiṇai yiṭattu virintun tokkum</l>
+<l>viravup peyariṉ virintu niṉṟum</l>
+<l>aṉṉa piṟavu mākumai urupē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉE0254"><interp type="alignment" select="0">14MG10MG5M2G24M2G6M2G27M2G10MG13M2GM,123M</interp>
+<entry>
+<form>iyalpiṉ</form>
+<def>of nature</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vikāram-um</form>
+<def>change</def>
+<form type="simple">vikāram</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vikāratt<c type="elided">u</c></form>
+<def>of change in the form of words</def>
+<form type="sandhi">vikāratt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyalp<c type="elided">u</c>-um</form>
+<def>nature</def>
+<form type="simple">iyalpu</form>
+<form type="sandhi">iyalp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uyar tiṇaiyiṭattu</form>
+<def>in the rational class</def>
+<form type="sandhi">uyartiṇaiyiṭattu</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virint<c type="elided">u</c>-um</form>
+<def>being expanded</def>
+<form type="simple">virintu</form>
+<form type="sandhi">virint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tokk<c type="elided">u</c>-um</form>
+<def>being elided</def>
+<form type="simple">tokku</form>
+<form type="sandhi">tokk</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viravu<c type="geminated">p</c> peyariṉ</form>
+<def>of noun common to both uyar-tiṇai and aḵṟiṇai</def>
+<form type="sandhi">viravu<c type="geminated">p</c>peyariṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virintu</form>
+<def>being expanded</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟ<c type="elided">u</c>-um</form>
+<def>stood</def>
+<form type="simple">niṉṟu</form>
+<form type="sandhi">niṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>aṉṉa</form>
+<def>like</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟa-<c type="glide">v</c>um</form>
+<def>other.they</def>
+<form type="simple">piṟa</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ai</form>
+<def>accusative marker 'ai'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urup<c type="elided">u</c>-ē</form>
+<def>morpheme</def>
+<form type="simple">urupu</form>
+<form type="sandhi">urup</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
