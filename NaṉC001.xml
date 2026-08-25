@@ -58,7 +58,7 @@
 <form>niḻaṟṟum</form>
 <def>shading</def>
 <gramGrp>
-  <gram type="role">peyareccam</gram>
+  <gram type="role">adjective</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -71,7 +71,7 @@
 </entry>
 <entry>
 <form>mu<c type="geminated">k</c> kuṭai</form>
-<def>an umbrella peculiar to Arhat, of three tiers</def>
+<def>an umbrella peculiar to Arhat, of three tiers,</def>
 <form type="sandhi">mu<c type="geminated">k</c>kuṭai</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -102,15 +102,10 @@
 <entry>
 <form>aṟaikuvaṉ</form>
 <def>I will speak</def>
-<gramGrp>
-  <gram type="role">imperfective aspect</gram>
-  <gram type="role">singular</gram>
-  <gram type="role">first person</gram>
-</gramGrp>
 </entry>
 <entry>
 <form>col-<c type="geminated">l</c>ē</form>
-<def>[a grammar of] word</def>
+<def>[grammar of] word</def>
 <form type="simple">col</form>
 <gramGrp>
   <gram type="role">root noun</gram>
