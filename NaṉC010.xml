@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>10</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉC010">
+<l>ilakkaṇa muṭaiya tilakkaṇap pōli</l>
+<l>marūuveṉ ṟāku mūvakai yiyalpum</l>
+<l>iṭakka raṭakkaṉ maṅkalaṅ kuḻūukkuṟi</l>
+<l>eṉumut takutiyō ṭāṟām vaḻakkiyal</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉC010"><interp type="alignment" select="0">16MG22MG4ML12M2G38ML11MG2MG8MG4M,126M</interp>
+<entry>
+<form>ilakkaṇam uṭaiyat<c type="elided">u</c></form>
+<def>word that is regularly formed, and is part of the legitimate vocabulary</def>
+<form type="sandhi">ilakkaṇamuṭaiyat</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilakkaṇa<c type="geminated">p</c> pōli</form>
+<def>words which, though not strictly grammatical, have, nevertheless, by long usage secured unquestioned admission into the standard dialect</def>
+<form type="sandhi">ilakkaṇa<c type="geminated">p</c>pōli</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>marūu</form>
+<def>word or phrase in a corrupt or contracted form, sanctioned by usage</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi"><c type="glide">v</c>eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becoming</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mū</form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vakai</form>
+<def>kinds</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iyalp<c type="elided">u</c>-um</form>
+<def>nature</def>
+<form type="simple">iyalpu</form>
+<form type="sandhi"><c type="glide">y</c>iyalp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṭakkar aṭakkal</form>
+<def>euphemism</def>
+<form type="sandhi">iṭakkaraṭakkaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṅkalam</form>
+<def>euphemism; employment of an auspicious word to denote an inauspicious thing</def>
+<form type="sandhi">maṅkalaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḻūu<c type="geminated">k</c> kuṟi</form>
+<def>conventional term, peculiar to a society or profession</def>
+<form type="sandhi">kuḻūu<c type="geminated">k</c>kuṟi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉum</form>
+<def>what</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mu<c type="geminated">t</c></form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takutiyōṭ<c type="elided">u</c></form>
+<def>with the usage of a conventional substitute for the proper name of an object or action</def>
+<form type="sandhi">takutiyōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṟ<c type="elided">u</c></form>
+<def>six</def>
+<form type="sandhi">āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becoming</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḻakk<c type="elided">u</c> iyal</form>
+<def>usage</def>
+<form type="sandhi">vaḻakkiyal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
