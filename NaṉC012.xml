@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>12</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉC012">
+<l>oṉṟoḻi potuccol vikāran takuti</l>
+<l>āku peyaraṉ moḻiviṉaik kuṟippē</l>
+<l>mutaṟokai kuṟippō ṭiṉṉa piṟavum</l>
+<l>kuṟippiṟ ṟarumoḻi yallaṉa veḷippaṭai</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉC012"><interp type="alignment" select="0">3MG50M2G6ML12MG8MG36M,121M</interp>
+<entry>
+<form>oṉṟ<c type="elided">u</c> oḻi potu<c type="geminated">c</c> col</form>
+<def>term common to both genders, one only of which is intended, the other being excluded by the context</def>
+<form type="sandhi">oṉṟoḻipotu<c type="geminated">c</c>col</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vikāram</form>
+<def>change in the form of words</def>
+<form type="sandhi">vikāran</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>takuti</form>
+<def>worthiness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āku peyar</form>
+<def>the usage of a conventional substitute for the proper name of an object or action</def>
+<form type="sandhi">ākupeyar</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>al moḻi</form>
+<def>an elliptical compound in which any one of the five tokai-nilai, that precede this in the enumeration</def>
+<form type="sandhi">aṉmoḻi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai<c type="geminated">k</c> kuṟipp<c type="elided">u</c>-ē</form>
+<def>appellative</def>
+<form type="simple">viṉai kuṟippu</form>
+<form type="sandhi">viṉai<c type="geminated">k</c>kuṟipp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>mutal</form>
+<def>initial words</def>
+<form type="sandhi">mutaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tokai</form>
+<def>compounds</def>
+<form type="sandhi">ṟokai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟippōṭ<c type="elided">u</c></form>
+<def>with object of mental apprehension</def>
+<form type="sandhi">kuṟippōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉa</form>
+<def>like-this</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟa-<c type="glide">v</c>um</form>
+<def>other.they</def>
+<form type="simple">piṟa</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kuṟippiṉ</form>
+<def>of that which is implied</def>
+<form type="sandhi">kuṟippiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taru</form>
+<def>give</def>
+<form type="sandhi">ṟaru</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻi</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>allaṉa</form>
+<def>those which not</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷippaṭai</form>
+<def>being evident</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
