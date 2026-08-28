@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>50</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉC0050">
+<l>orucār ṉavvīṟ ṟuyartiṇaip peyarkkaṇ</l>
+<l>aḷapī ṟaḻivaya ṉīṭci yataṉō</l>
+<l>ṭīṟu pōta lavaṟṟō ṭōvuṟal</l>
+<l>īṟaḻin tōvuṟa liṟutiyav vātal</l>
+<l>ataṉō ṭayaṟirin tēyuṟa līṟaḻin</l>
+<l>tayalē yātalum viḷiyuru pākum</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉC0050"><interp type="alignment" select="0">13MG23MG2MG4MG4ML11MG15MG8MG5MG25MG4ML5MG8MG5MG10MG11MG4M,173M</interp>
+<entry>
+<form>oru cār</form>
+<def>some</def>
+<form type="sandhi">orucār</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṉa<c type="geminated">v</c></form>
+<def>consonant 'ṉ'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">v</c>īṟṟ<c type="elided">u</c></form>
+<def>ending</def>
+<form type="sandhi"><c type="geminated">v</c>īṟṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uyar tiṇai<c type="geminated">p</c></form>
+<def>rational class</def>
+<form type="sandhi">uyartiṇai<c type="geminated">p</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peyarkkaṇ</form>
+<def>in the nouns</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷap<c type="elided">u</c></form>
+<def>lengthening</def>
+<form type="sandhi">aḷap</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṟ<c type="elided">u</c></form>
+<def>end</def>
+<form type="sandhi">īṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻiv<c type="elided">u</c></form>
+<def>elision</def>
+<form type="sandhi">aḻiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayal</form>
+<def>penultimate</def>
+<form type="sandhi">ayaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṭci</form>
+<def>lenghtening</def>
+<form type="sandhi">ṉīṭci</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ataṉōṭ<c type="elided">u</c></form>
+<def>with that</def>
+<form type="sandhi"><c type="glide">y</c>ataṉōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṟu</form>
+<def>end</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōtal</form>
+<def>elision</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṟṟōṭ<c type="elided">u</c></form>
+<def>with those</def>
+<form type="sandhi">avaṟṟōṭ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ō</form>
+<def>syllable 'ō' (vocative sense)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṟal</form>
+<def>having</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṟ<c type="elided">u</c></form>
+<def>end</def>
+<form type="sandhi">īṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻint<c type="elided">u</c></form>
+<def>perished</def>
+<form type="sandhi">aḻint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ō</form>
+<def>syllable 'ō' (vocative sense)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>uṟal</form>
+<def>having</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟuti</form>
+<def>end</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ya<c type="geminated">v</c></form>
+<def>consonant 'y'</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">v</c>ātal</form>
+<def>becoming</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ataṉōṭ<c type="elided">u</c></form>
+<def>with that</def>
+<form type="sandhi">ataṉōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayal</form>
+<def>penultimate</def>
+<form type="sandhi">ayaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirint<c type="elided">u</c></form>
+<def>changed</def>
+<form type="sandhi">ṟirint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ē</form>
+<def>syllable 'ē' (vocative sense)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṟal</form>
+<def>having</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṟ<c type="elided">u</c></form>
+<def>end</def>
+<form type="sandhi">īṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻint<c type="elided">u</c></form>
+<def>perished</def>
+<form type="sandhi">aḻint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ayal</form>
+<def>penultimate</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ē</form>
+<def>syllable 'ē' (vocative sense)</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ātal-um</form>
+<def>becoming</def>
+<form type="simple">ātal</form>
+<form type="sandhi"><c type="glide">y</c>ātal</form>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>viḷi</form>
+<def>vocative</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>urup<c type="elided">u</c></form>
+<def>morpheme</def>
+<form type="sandhi"><c type="glide">y</c>urup</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
