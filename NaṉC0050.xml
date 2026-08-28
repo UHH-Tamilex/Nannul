@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>50</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
-        <editor role="translator" xml:lang="en"></editor>
+        <editor role="translator" xml:lang="en"/>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -17,7 +14,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,7 +39,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉC0050"><interp type="alignment" select="0">13MG23MG2MG4MG4ML11MG15MG8MG5MG25MG4ML5MG8MG5MG10MG11MG4M,173M</interp>
+<standOff type="wordsplit" corresp="#NaṉC0050">
+<interp type="alignment" select="0">13MG23MG2MG4MG4ML11MG15MG8MG5MG25MG4ML5MG8MG5MG10MG11MG4M,173M</interp>
 <entry>
 <form>oru cār</form>
 <def>some</def>
@@ -107,7 +105,7 @@
 </entry>
 <entry>
 <form>ayal</form>
-<def>penultimate</def>
+<def>penult</def>
 <form type="sandhi">ayaṉ</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -227,7 +225,7 @@
 </entry>
 <entry>
 <form>ayal</form>
-<def>penultimate</def>
+<def>penult</def>
 <form type="sandhi">ayaṟ</form>
 <gramGrp>
   <gram type="role">noun</gram>
@@ -273,7 +271,7 @@
 </entry>
 <entry>
 <form>ayal</form>
-<def>penultimate</def>
+<def>penult</def>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -316,5 +314,6 @@
 <gramGrp>
   <gram type="role">habitual future</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
