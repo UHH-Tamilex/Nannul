@@ -7,9 +7,9 @@
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>2</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
-        <editor role="translator" xml:lang="en"></editor>
+        <editor role="translator" xml:lang="en"/>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -17,7 +17,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -40,7 +40,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉC002"><interp type="alignment" select="0">51MG9MG16M2G49MG2M,132M</interp>
+<standOff type="wordsplit" corresp="#NaṉC002">
+<interp type="alignment" select="0">51MG9MG16M2G49MG2M,132M</interp>
 <entry>
 <form>oru moḻi</form>
 <def>simple word</def>
@@ -73,7 +74,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>iruti ṇai</form>
+<form>iru tiṇai</form>
 <def>the two classes of nouns and verbs referring to the personal and the impersonal</def>
 <form type="sandhi">irutiṇai</form>
 </entry>
@@ -169,5 +170,6 @@
   <gram type="role">root noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
