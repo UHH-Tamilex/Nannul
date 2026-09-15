@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -36,9 +39,9 @@
 <standOff type="wordsplit" corresp="#NaṉE001">
 <interp type="alignment" select="0">21MG25MG11MG11M,71M</interp>
 <entry>
-<form>muka <c type="glide">u</c>urai</form>
+<form>muka <c type="glide">v</c>urai</form>
 <def>introduction</def>
-<form type="sandhi">mukav<c type="glide">u</c>rai</form>
+<form type="sandhi">muka<c type="glide">v</c>urai</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
@@ -67,9 +70,9 @@
 </gramGrp>
 </entry>
 <entry>
-<form>puṟa <c type="glide">u</c>urai</form>
+<form>puṟa <c type="glide">v</c>urai</form>
 <def>preface</def>
-<form type="sandhi">puṟav<c type="glide">u</c>rai</form>
+<form type="sandhi">puṟa<c type="glide">v</c>urai</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
