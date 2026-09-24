@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
-<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
             <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>131</num>.
-            <persName xml:lang="ta"></persName>
+            <persName xml:lang="ta"/>
         </title>     
-        <editor role="translator" xml:lang="en"></editor>
+        <editor role="translator" xml:lang="en"/>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -18,7 +15,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -39,12 +36,13 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉC00131"><interp type="alignment" select="0">19MG36M2GM,59M</interp>
+<standOff type="wordsplit" corresp="#NaṉC00131">
+<interp type="alignment" select="0">19MG36M2GM,59M</interp>
 <entry>
 <form>e<c type="geminated">p</c></form>
 <def>what</def>
 <gramGrp>
-  <gram type="role">pronoun</gram>
+  <gram type="role">interrogative pronoun</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -58,7 +56,7 @@
 <form>e<c type="geminated">c</c></form>
 <def>what</def>
 <gramGrp>
-  <gram type="role">pronoun</gram>
+  <gram type="role">interrogative pronoun</gram>
 </gramGrp>
 </entry>
 <entry>
@@ -118,5 +116,6 @@
   <gram type="role">noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
