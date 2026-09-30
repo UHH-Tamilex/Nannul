@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>154</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="8NaṉC00154">
+<l>yāṟṟunīr moḻimāṟṟu niraṉiṟai viṟpūṇ</l>
+<l>tāppicai yaḷaimaṟi pāppuk koṇṭukūṭ</l>
+<l>ṭaṭimaṟi māṟṟeṉap poruḷkō ḷeṭṭē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#8NaṉC00154"><interp type="alignment" select="0">22MG14MG28MG11MG15M2GM,97M</interp>
+<entry>
+<form>yāṟṟu nīr</form>
+<def>a mode of construing a verse in which the words are taken in their order without any transposition to yield the intended meaning</def>
+<form type="sandhi">yāṟṟunīr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻi māṟṟu</form>
+<def>a mode of construing a verse in which the words have to be transposed for the ascertainment of its proper meaning</def>
+<form type="sandhi">moḻimāṟṟu</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niral niṟai</form>
+<def>a mode of construing a verse in which words are so arranged in groups that each term of one group is made to govern or qualify the corresponding term in another group</def>
+<form type="sandhi">niraṉiṟai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vil pūṇ</form>
+<def>a method of construing a verse by taking together the first and last words</def>
+<form type="sandhi">viṟpūṇ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāpp<c type="elided">u</c> icai</form>
+<def>a mode of construing a word in the middle of a verse both with what precedes and what follows it</def>
+<form type="sandhi">tāppicai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḷai maṟi pāppu<c type="geminated">k</c></form>
+<def>a mode of construing in which the expression at the end of a verse is conjoined with a word in the middle of a verse or with one in the beginning of another verse,</def>
+<form type="sandhi"><c type="glide">y</c>aḷaimaṟipāppu<c type="geminated">k</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭu kūṭṭ<c type="elided">u</c></form>
+<def>a mode of construing a stanza in which words are appropriately transposed to arrive at the proper meaning</def>
+<form type="sandhi">koṇṭukūṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi maṟi māṟṟ<c type="elided">u</c></form>
+<def>a mode of construing in which the lines of a verse have to change places to give the intended meaning, or can change places without the rhythm and meaning changing at the same time</def>
+<form type="sandhi">aṭimaṟimāṟṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉa<c type="geminated">p</c></form>
+<def>to say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poruḷ kōḷ</form>
+<def>modes of construing verses, of which there are eight, viz., yāṟṟu-nīr, moḻi-māṟṟu, niraṉiṟai, viṟ-pūṇ, tāppicai, aḷai-maṟi-pāppu, koṇṭu-kūṭṭu, aṭimaṟi-māṟṟu</def>
+<form type="sandhi">poruḷkōḷ</form>
+</entry>
+<entry>
+<form>eṭṭ<c type="elided">u</c>-ē</form>
+<def>eight</def>
+<form type="simple">eṭṭu</form>
+<form type="sandhi">eṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
