@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>201</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉC00201">
+<l>māṟṟa nuvaṟcicep puraikarai noṭiyicai</l>
+<l>kūṟṟup pukaṟaṉmoḻi kiḷavi viḷampaṟai</l>
+<l>pāṭṭup pakarcci yiyampal collē</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉC00201"><interp type="alignment" select="0">5MR11MG47MG29MG2M,98M</interp>
+<entry>
+<form>māṟṟam</form>
+<def>the uriccol 'māṟṟam' - word</def>
+<form type="sandhi">māṟṟan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuvaṟci</form>
+<def>the uriccol 'nuvarci' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cepp<c type="elided">u</c></form>
+<def>the uriccol 'ceppu' - word</def>
+<form type="sandhi">cepp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urai</form>
+<def>the uriccol 'urai' - word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karai</form>
+<def>the uriccol 'karai' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>noṭi</form>
+<def>the uriccol 'noṭi' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>icai</form>
+<def>the uriccol 'icai' - word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟṟu<c type="geminated">p</c></form>
+<def>the uriccol 'kūṟṟu' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukaṟal</form>
+<def>the uriccol 'pukaral' - word</def>
+<form type="sandhi">pukaṟaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>moḻi</form>
+<def>the uriccol 'moli' - word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kiḷavi</form>
+<def>the uriccol 'kiḷavi' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḷamp<c type="elided">u</c></form>
+<def>the uriccol 'viḷampu' - word</def>
+<form type="sandhi">viḷamp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟai</form>
+<def>the uriccol 'aṟai' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṭṭu<c type="geminated">p</c></form>
+<def>the uriccol 'pāṭṭu' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakarcci</form>
+<def>the uriccol 'pakarcci' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iyampal</form>
+<def>the uriccol 'iyampal' - word</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>col-<c type="geminated">l</c>ē</form>
+<def>word</def>
+<form type="simple">col</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
