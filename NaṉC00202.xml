@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>202</num>.
+            <persName xml:lang="ta"></persName>
+        </title>     
+        <editor role="translator" xml:lang="en"></editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="NaṉC00202">
+<l>muḻakkiraṭ ṭolikali yicaituvai piḷiṟirai</l>
+<l>irakkaḻuṅ kiyampa limiḻkuḷi ṟatirkurai</l>
+<l>kaṉaicilai cummai kavvai kampalai</l>
+<l>arava mārppō ṭiṉṉaṉa vōcai</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#NaṉC00202"><interp type="alignment" select="0">6MG5MG22MG9MG5MG16MG51MG11M,132M</interp>
+<entry>
+<form>muḻakk<c type="elided">u</c></form>
+<def>the uriccol 'muḻakku' - sound</def>
+<form type="sandhi">muḻakk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iraṭṭ<c type="elided">u</c></form>
+<def>the uriccol 'iraṭṭu' - sound</def>
+<form type="sandhi">iraṭṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oli</form>
+<def>the uriccol 'oli' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kali</form>
+<def>the uriccol 'kali' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>icai</form>
+<def>the uriccol 'icai' - sound</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuvai</form>
+<def>the uriccol 'tuvai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piḷiṟ<c type="elided">u</c></form>
+<def>the uriccol 'piḷiṟu' - sound</def>
+<form type="sandhi">piḷiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irai</form>
+<def>the uriccol 'irai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>irakk<c type="elided">u</c></form>
+<def>the uriccol 'irakku' - sound</def>
+<form type="sandhi">irakk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻuṅk<c type="elided">u</c></form>
+<def>the uriccol 'aḻuṅku' - sound</def>
+<form type="sandhi">aḻuṅk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iyampal</form>
+<def>the uriccol 'iyampal' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>imiḻ</form>
+<def>the uriccol 'imiḻ' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḷiṟ<c type="elided">u</c></form>
+<def>the uriccol 'kuḷiṟu' - sound</def>
+<form type="sandhi">kuḷiṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atir</form>
+<def>the uriccol 'atir' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kurai</form>
+<def>the uriccol 'kurai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṉai</form>
+<def>the uriccol 'kaṉai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cilai</form>
+<def>the uriccol 'cilai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cummai</form>
+<def>the uriccol 'cummai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kavvai</form>
+<def>the uriccol 'kavvai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kampalai</form>
+<def>the uriccol 'kampalai' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aravam</form>
+<def>the uriccol 'aravam' - sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ārppōṭ<c type="elided">u</c></form>
+<def>with the uriccol 'ārppu' - sound</def>
+<form type="sandhi">ārppōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṉaṉa</form>
+<def>such-they</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ōcai</form>
+<def>sound</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
