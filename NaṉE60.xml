@@ -1,4 +1,6 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,7 +41,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉE60"><interp type="alignment" select="0">18MG3MG12MG8MG7MG3MG10MG26MG2MG9M2G9M2G11M2G18MG5MG10MG10MG10M,190M</interp>
+<standOff type="wordsplit" corresp="#NaṉE60">
+<interp type="alignment" select="0">18MG3MG12MG8MG7MG3MG10MG26MG2MG9M2G9M2G11M2G18MG5MG10MG10MG10M,190M</interp>
 <entry>
 <form>uyir mey</form>
 <def>consonant-vowel — composed of a consonant and a vowel</def>
@@ -56,7 +59,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>nūṟṟ<c type="elided">u</c> eṭṭ*</form>
+<form>nūṟṟ<c type="elided">u</c> eṭṭ<c type="elided">u</c></form>
 <def>hundred and eight</def>
 <form type="sandhi">nūṟṟeṭṭ</form>
 <gramGrp>
@@ -77,24 +80,44 @@
 <form type="sandhi">eṭṭ</form>
 <gramGrp>
   <gram type="role">noun</gram>
-<gram type="role">numeral</gram></gramGrp>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
-<form>uyir aḷap*</form>
-<def>a vowel which sounds with mA vowel which sounds with more than its normal quantity</def>
+<form>uyir aḷap<c type="elided">u</c></form>
+<def>a vowel which sounds with mā vowel which sounds with more than its normal quantity</def>
 <form type="sandhi">uyiraḷap</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<entry>
-<form>eḻu mūṉṟ*</form>
+<superEntry type="ambiguous">
+<entry><entry>
+<form>eḻu mūṉṟ<c type="elided">u</c></form>
 <def>seven times three (twenty-one)</def>
 <form type="sandhi">eḻumūṉṟ</form>
 <gramGrp>
+  <gram type="role">numeral</gram>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>eḻu</form>
+<def>seven</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry><entry>
+<form>mūṉṟ<c type="elided">u</c></form>
+<def>three</def>
+<form type="sandhi">mūṉṟ</form>
+<gramGrp>
+  <gram type="role">numeral</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>oṟṟ<c type="elided">u</c> aḷapeṭai</form>
 <def>a consonant being doubled in writing, to indicate the prolongation</def>
@@ -112,21 +135,46 @@
 </gramGrp>
 </entry>
 <entry>
-<form>aḵkum <c type="geminated">i</c>i+</form>
+<form>aḵkum <c type="geminated">m</c>i<c type="geminated">m</c></form>
 <def>shortened 'i'</def>
-<form type="sandhi">aḵkumm<c type="geminated">i</c>m</form>
+<form type="sandhi">aḵkum<c type="geminated">m</c>i<c type="geminated">m</c></form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>mu<c type="geminated">p</c> pāṉ ēḻ</form>
 <def>three times ten plus seven (thirty seven)</def>
 <form type="sandhi">mu<c type="geminated">p</c>pāṉēḻ</form>
 <gramGrp>
-  <gram type="role">noun</gram>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>mu<c type="geminated">p</c></form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry><entry>
+<form>pāṉ</form>
+<def>ten</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry><entry>
+<form>ēḻ</form>
+<def>seven</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>ukaram</form>
 <def>shortened 'u'</def>
@@ -134,13 +182,34 @@
   <gram type="role">noun</gram>
 </gramGrp>
 </entry>
-<entry>
-<form>āṟ<c type="elided">u</c> āṟ*</form>
+<superEntry type="ambiguous">
+<entry><entry>
+<form>āṟ<c type="elided">u</c> āṟ<c type="elided">u</c></form>
 <def>six times six (thirty-six)</def>
 <form type="sandhi">āṟāṟ</form>
 <gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>āṟ<c type="elided">u</c></form>
+<def>six</def>
+<form type="sandhi">āṟ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry><entry>
+<form>āṟ<c type="elided">u</c></form>
+<def>six</def>
+<form type="sandhi">āṟ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>aikāṉ</form>
 <def>shortened 'ai'</def>
@@ -153,8 +222,6 @@
 <def>three</def>
 <form type="simple">mūṉṟu</form>
 <form type="sandhi">mūṉṟ</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -186,8 +253,6 @@
 <def>three</def>
 <form type="simple">mūṉṟu</form>
 <form type="sandhi">mūṉṟ</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -205,7 +270,7 @@
 </gramGrp>
 </entry>
 <entry>
-<form>cārp<c type="elided">u</c> eḻutt*</form>
+<form>cārp<c type="elided">u</c> eḻutt<c type="elided">u</c></form>
 <def>dependent letter</def>
 <form type="sandhi">cārpeḻutt</form>
 <gramGrp>
@@ -232,7 +297,8 @@
 <form type="sandhi">oṉṟ</form>
 <gramGrp>
   <gram type="role">noun</gram>
-<gram type="role">numeral</gram></gramGrp>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>oḻi</form>
@@ -241,13 +307,47 @@
   <gram type="role">verbal root</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>mu<c type="geminated">n</c> nūṟṟ<c type="elided">u</c> eḻupāṉ</form>
 <def>three times hundred plus seven times ten (three hundred and seventy)</def>
 <form type="sandhi">mu<c type="geminated">n</c>nūṟṟeḻupāṉ</form>
 <gramGrp>
+  <gram type="role">numeral</gram>
+  <gram type="role">noun</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>mu<c type="geminated">n</c></form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry><entry>
+<form>nūṟṟ<c type="elided">u</c></form>
+<def>hundred</def>
+<form type="sandhi">nūṟṟ</form>
+<gramGrp>
+  <gram type="role">numeral</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry><entry>
+<form>eḻu</form>
+<def>seven</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry><entry>
+<form>pāṉ</form>
+<def>ten</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>eṉpa</form>
 <def>they say</def>
@@ -256,5 +356,6 @@
   <gram type="role">third person</gram>
   <gram type="role">imperfective aspect</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
