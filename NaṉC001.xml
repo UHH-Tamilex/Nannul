@@ -1,4 +1,6 @@
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -6,7 +8,7 @@
             <title xml:lang="ta">Naṉṉūl Collatikāram</title> <num>1</num>.
             <persName xml:lang="ta"/>
         </title>     
-        <editor role="translator" xml:lang="en"/>
+        <editor><persName xml:lang="en">S. Saravanan</persName></editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -35,13 +37,15 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#NaṉC001"><interp type="alignment" select="0">7MR8ML30MG12MG2M,63M</interp>
+<standOff type="wordsplit" corresp="#NaṉC001">
+<interp type="alignment" select="0">7MR8ML30MG12MG2M,63M</interp>
 <entry>
 <form>mu<c type="geminated">c</c></form>
 <def>three</def>
 <gramGrp>
   <gram type="role">adjective</gram>
-<gram type="role">numeral</gram></gramGrp>
+  <gram type="role">numeral</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cakam</form>
@@ -58,22 +62,53 @@
   <gram type="role">adjective</gram>
 </gramGrp>
 </entry>
-<entry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>muḻu mati</form>
 <def>full moon</def>
 <form type="sandhi">muḻumati</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry>
-<entry>
+</entry></entry>
+<entry><entry>
+<form>muḻu</form>
+<def>full</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry><entry>
+<form>mati</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
+<superEntry type="ambiguous">
+<entry><entry>
 <form>mu<c type="geminated">k</c> kuṭai</form>
 <def>an umbrella peculiar to Arhat, of three tiers,</def>
 <form type="sandhi">mu<c type="geminated">k</c>kuṭai</form>
 <gramGrp>
   <gram type="role">noun</gram>
 </gramGrp>
-</entry>
+</entry></entry>
+<entry><entry>
+<form>mu<c type="geminated">k</c></form>
+<def>three</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+  <gram type="role">numeral</gram>
+</gramGrp>
+</entry><entry>
+<form>kuṭai</form>
+<def>parasol</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></entry>
+</superEntry>
 <entry>
 <form>accutaṉ</form>
 <def>Acyuta(the imperishable one)</def>
@@ -108,5 +143,6 @@
   <gram type="role">root noun</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
